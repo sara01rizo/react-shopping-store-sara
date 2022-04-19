@@ -1,5 +1,6 @@
 // feature 1
 import React from "react";
+import Footer from "./components/Footer";
 import Products from "./components/Products";
 import data from "./data.json"
 
@@ -26,10 +27,9 @@ class App extends React.Component {
           <div className="sidebar">Cart Items</div>
         </div>
       </main>
-      <footer>
-        All rigth is reserved.
-      </footer>
+      <Footer></Footer>
     </div>
+    
     );
   }
 }
