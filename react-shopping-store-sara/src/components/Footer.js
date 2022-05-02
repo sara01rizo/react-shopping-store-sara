@@ -30,6 +30,15 @@ export default class Footer extends Component {
               </select>
               </div>
           </div>
+          <div className='container-footer'>
+            <div className='footer-comp'>
+            <p>Contact Us</p>
+            <p>Legal Policy</p>
+            <p>Social Media</p>
+            <p>Special Offers</p>
+            <p>More Info</p>
+            </div>           
+          </div>
             <p className='footer'>All rigth is reserved </p>
           </div>
       </div>
