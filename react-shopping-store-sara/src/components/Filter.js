@@ -1,11 +1,10 @@
-import React, { Component } from 'react'
-import '../style/footer.css';
+import React, { Component } from 'react';
+import '../index.css';
 
-export default class Footer extends Component {
+export default class Filter extends Component {
   render() {
     return (
       <div>
-          <div className='footer'>      
           <div className='filter'>
           <div className='filter-result'>{this.props.count}</div>
           <div className='filter-sort'>
@@ -29,22 +28,11 @@ export default class Footer extends Component {
               </select>
               </div>
           </div>
-          <div className='container-footer'>
-            <div className='footer-comp'>
-            <p>Contact Us</p>
-            <p>Legal Policy</p>
-            <p>Social Media</p>
-            <p>Special Offers</p>
-            <p>More Info</p>
-            </div>           
-          </div>
-            <p className='footer'>All rigth is reserved </p>
-          </div>
-          <div className='footer-end'>
-            <p>This project is build by <b>Sara Pulido</b>, and it is oper source</p>
-            <a href="https://github.com/sara01rizo/react-shopping-store-sara" target="_blank" rel="noopener noreferrer">here</a>
-          </div>
       </div>
     )
   }
 }
+
+
+//console.log(event.target.value)
+//console.log(event.target.value)

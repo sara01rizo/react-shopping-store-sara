@@ -7,3 +7,7 @@ footer{
     align-items: center;
   }
   
+  footer-comp{
+    margin: auto;
+    color: orangered;
+  }
